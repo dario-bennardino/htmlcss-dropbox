@@ -7,9 +7,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 header{
     height: 850px;
     background-color: lightcoral;
+}
+
+footer{
+    background-color: black;
+    height: 580px;
 }
 
 .debug{
@@ -99,6 +105,28 @@ header{
 .button-business{
     font-size: 1.2rem;
 }
+
+.colonne-business{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.colonna-piano{
+    width: calc(100% / 3 - 40px);
+    border: 1px solid black;
+    height: 1000px;
+}
+
+.top-colonna-piano{
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+}
+
+
 
 
 
