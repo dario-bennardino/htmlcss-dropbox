@@ -90,7 +90,6 @@ footer{
 }
 
 .business{
-    height: 2000px;
     background-color: yellow;
 }
 
@@ -154,6 +153,49 @@ footer{
     width: 30%;
     background-color: chocolate;
 }
+
+.trova-partner{
+    height: 700px;
+    padding-top: 50px;
+}
+
+.box-tova-partner{
+    height: 100%;
+    display: flex;
+    
+}
+
+.trova-partner-img{
+    background-color: lightslategrey;
+    width: 60%;
+}
+
+.trova-partner-text{
+    width: 40%;  
+    padding: 60px 30px;
+}
+
+.trova-partner-text > h3{
+    font-size: 1.5rem;
+}
+
+.trova-partner-text > p{
+    padding-top: 25px;
+    font-size: 1.1rem;
+    line-height: 22px;
+    padding-bottom: 60px;
+}
+
+.padding-top-sm{
+    padding-top: 25px;
+}
+
+.botton-trova-partner{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
 
 
 
