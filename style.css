@@ -16,6 +16,7 @@ header{
 footer{
     background-color: black;
     height: 580px;
+    color: white;
 }
 
 .debug{
@@ -125,6 +126,35 @@ footer{
     text-align: center;
     line-height: 40px;
 }
+
+.box-enterprise{
+    width: 100%;
+    height: 350px;
+    padding-top: 30px;
+}
+
+.top-box-enterprise{
+    height: 15%;
+    background-color: lightpink;
+}
+
+.bottom-box-enterprise{
+    display: flex; 
+    height: 85%;
+}
+
+.bottom-box-enterprise-sx{
+    height: 100%;
+    width: 70%;
+    background-color: darksalmon;
+}
+
+.bottom-box-enterprise-dx{
+    height: 100%;
+    width: 30%;
+    background-color: chocolate;
+}
+
 
 
 
