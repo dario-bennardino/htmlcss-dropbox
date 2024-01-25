@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 80px;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo{
+
+}
+
+.menu{
+
+}
+
+.topbar .menu ul{
+    display: flex;
+}
+
+.container-sm{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.container-lg{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.jumbotron{
+    background-color: #B4D0E7;
+    height: 730px;
+}
+
+.jumbotron .container-sm h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+
