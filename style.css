@@ -191,11 +191,92 @@ footer{
 }
 
 .botton-trova-partner{
-    border: 1px solid black;
     padding: 10px;
 }
 
+.box-dropbox-business{
+    height: 1000px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.card-dropbox{
+    width: calc(100% / 3);
+    height: calc(100% / 2);
+}
+
+.card-dropbox-img{
+    height: 50%;
+}
+
+.card-dropbox-text{
+    height: 50%;
+}
+
+.dropbox-business-bottom{
+    height: 300px;
+}
+
+.designit{
+    height: 650px;
+    width: 100%;
+}
+
+.box-designit{
+    height: 100%;
+    display: flex;
+}
+
+.card-designit{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-brand{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+.porta-dropbox-azienda{
+    background-color: #B4D0E7;
+}
+
+.box-porta-dropbox-azienda{
+    height: 300px;
+    display: flex;
+}
+
+.porta-dropbox-azienda-sx{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.porta-dropbox-azienda-sx > h2{
+    font-size: 2.3rem;
+    color: #61082B;
+}
+
+.porta-dropbox-azienda-dx{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.botton-trova-partner{
+    padding: 10px 40px;
+    background-color: white;
+}
+
+.faq{
+    height: 700px;
+    width: 100%;
+}
 
 
 
