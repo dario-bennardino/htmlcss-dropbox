@@ -89,11 +89,11 @@ footer{
 }
 
 .business{
-    background-color: yellow;
+
 }
 
 .business .container-sm h2{
-    padding-top: 80px;
+    padding: 80px 0;
     font-size: 2.5rem;
 }
 
@@ -215,8 +215,14 @@ footer{
 }
 
 .dropbox-business-bottom{
-    height: 300px;
+    height: 450px;
+    padding-right: 300px;
 }
+
+.dropbox-business-bottom a{
+    color: #7D50A6;
+    padding-top: 50px;
+}      
 
 .designit{
     height: 650px;
