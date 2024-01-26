@@ -29,12 +29,16 @@ footer{
     align-items: center;
 }
 
+.topbar-sx{
+    align-items: center;
+}
+
 .flex{
     display: flex;
 }
 
 .logo{
-
+    padding-right: 45px;
 }
 
 .menu{
@@ -43,12 +47,42 @@ footer{
 
 .topbar .menu ul{
     display: flex;
+    list-style: none;   
+}
+
+.topbar .menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.topbar-dx{
+    display: flex;
+    align-items: center;
+}
+
+.topbar ul{
+    display: flex;
+    list-style: none;   
+}
+
+.topbar a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.tasto-inizia{
+    background-color: #0061FF;
+    color: white;
+}
+
+.tasto-inizia > a{
+    color: white;
 }
 
 .container-sm{
     max-width: 1000px;
     margin: 0 auto;
-
 }
 
 .container-lg{
