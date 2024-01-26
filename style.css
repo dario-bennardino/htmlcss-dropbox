@@ -274,10 +274,29 @@ footer{
 }
 
 .faq{
-    height: 700px;
+    height: 800px;
     width: 100%;
 }
 
+.box-faq{
+    padding: 100px 0;
+    border-top: 1px solid black;
+}
+
+.faq-row{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+
+.box-faq > h2{
+    font-size: 2.5rem;
+    padding-bottom: 100px;
+}
+
+.box-faq-row{
+    border-top: 1px solid black;
+}
 
 
 
