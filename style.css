@@ -16,7 +16,6 @@ header{
 footer{
     background-color: black;
     height: 580px;
-    color: white;
 }
 
 .debug{
@@ -56,6 +55,7 @@ footer{
 .container-lg{
     max-width: 1200px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .jumbotron{
@@ -298,7 +298,36 @@ footer{
     border-top: 1px solid black;
 }
 
+.box-footer{
+    height: 100%;
+    display: flex;
+}
 
+.colonne-footer{
+    height: 100%;
+    width: calc(100% / 5);
+    border: 1px solid white;
+    padding: 50px 10px 10px 10px;
+}
+
+.colonne-footer > h3{
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 0;
+}
+
+.colonne-footer a{
+    color: white; 
+    text-decoration: none;
+    list-style: none;
+}
+
+.colonne-footer li{
+    list-style: none;
+    padding: 7px 0;
+
+
+}
 
 
 
