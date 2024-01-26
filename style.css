@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    height: 850px;
+    height: 730px;
 }
 
 footer{
@@ -74,6 +74,7 @@ footer{
 .tasto-inizia{
     background-color: #0061FF;
     color: white;
+    padding: 6px;
 }
 
 .tasto-inizia > a{
@@ -103,11 +104,10 @@ footer{
 }
 
 .box-jumbotron{
-    height: 500px;
+    height: 445px;
     margin: 0 auto;
     display: flex;
     width: 100%;
-    background-color: blueviolet;
     margin-top: 45px;
 
 }
@@ -115,11 +115,32 @@ footer{
 .jumbotron-text{
     width: 30%;
     height: 100%;
+    padding: 10px 10px 10px 0;
+}
+
+.tasto-prova{
+    background-color: #0061FF;
+    color: white;
+    width: 220px;
+    padding: 11px;
+    margin: 35px 0;
+}
+
+.arrow-jumbotron{
+    font-size: 2.5rem;
+    padding-top: 100px;
 }
 
 .jumbotron-img{
     width: 70%;
     height: 100%;
+    overflow: hidden;
+    
+}
+
+.jumbotron-img > img{
+    object-fit: cover;
+    max-width: 100%;
 }
 
 .business{
