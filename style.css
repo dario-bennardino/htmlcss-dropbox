@@ -273,18 +273,17 @@ footer{
 }
 
 .faq{
-    height: 800px;
+    height: 710px;
     width: 100%;
 }
 
 .box-faq{
     padding: 100px 0;
-    border-top: 1px solid black;
 }
 
 .faq-row{
     width: 100%;
-    height: 150px;
+    height: 105px;
     border-bottom: 1px solid black;
 }
 
@@ -295,6 +294,12 @@ footer{
 
 .box-faq-row{
     border-top: 1px solid black;
+}
+
+.faq-row-text{
+    display: flex;
+    justify-content: space-between;
+    line-height: 105px;
 }
 
 .box-footer{
