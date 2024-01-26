@@ -135,12 +135,14 @@ footer{
     width: 70%;
     height: 100%;
     overflow: hidden;
+    position: relative;
+    top: 50px;
     
 }
 
 .jumbotron-img > img{
     object-fit: cover;
-    max-width: 100%;
+    max-width: 96%;
 }
 
 .business{
@@ -148,12 +150,13 @@ footer{
 }
 
 .business .container-sm h2{
-    padding: 80px 0;
+    padding: 50px 0;
     font-size: 2.5rem;
+    margin-top: 140px;
 }
 
 .fatturazione{
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .button-business{
@@ -169,15 +172,61 @@ footer{
 
 .colonna-piano{
     width: calc(100% / 3 - 40px);
-    border: 1px solid black;
-    height: 1000px;
+    border: 1px solid #D0D0D3;
+    height: 950px;
+ 
 }
 
 .top-colonna-piano{
     height: 40px;
-    border: 1px solid black;
+    border-bottom: 1px solid #D0D0D3;
     text-align: center;
     line-height: 40px;
+}
+
+.bottom-colonna-piano{
+    padding: 40px 25px;
+}
+
+.bottom-colonna-piano > h3{
+    font-size: 1.4rem;
+}
+
+.prezzo{
+    padding-top: 20px;
+}
+
+.menu-colonne{
+    padding-top: 40px;
+}
+
+.menu-colonne ul li{
+    padding-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+
+
+.acquista-ora{
+    padding-bottom: 35px;
+}
+
+.barra-colonne{
+    border-bottom: 1px solid #D0D0D3;
+    width: 60px;
+}
+
+.bottom-colonna-piano > h4{
+    padding-top: 50px;
+}
+
+.menu-colonne-focus ul li{
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+.durata{
+    color: #757575;
 }
 
 .box-enterprise{
