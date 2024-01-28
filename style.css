@@ -406,10 +406,33 @@ footer{
 .logo-brand{
     width: calc(100% / 2);
     height: calc(100% / 2);
+    position: relative;
+}
+
+.box-logo{
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    position: relative;
+    left: 15px;
+    top: 15px;
+    
+}
+
+.box-logo img{
+    max-width: 150px;
+    max-height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .brand-first{
     background-color: #A2D39B;
+}
+
+.brand-first:hover{
+    border: 15px solid #D0E9CD;
 }
 
 .brand-second{
@@ -442,6 +465,11 @@ footer{
 
 .box-designit-text{
     padding: 45px;
+    background-color: #F5F5F5;
+}
+
+.box-designit-text p{
+    margin-top: 45px;
 }
 
 .image-designit{
