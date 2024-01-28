@@ -385,6 +385,7 @@ footer{
     padding-top: 50px;
 }      
 
+/* inizio sezione designit */
 .designit{
     height: 650px;
     width: 100%;
@@ -405,6 +406,61 @@ footer{
 .logo-brand{
     width: calc(100% / 2);
     height: calc(100% / 2);
+}
+
+.brand-first{
+    background-color: #A2D39B;
+}
+
+.brand-second{
+    background-color: #61082B;
+}
+
+.brand-third{
+    background-color: #0092CE;
+}
+
+.brand-fourth{
+    background-color: #FF1C1D;
+}
+
+.brand-fifth{
+    background-color: #D50120;
+}
+
+.brand-sixth{
+    background-color: #B4D0E7;
+}
+
+.brand-seventh{
+    background-color: #0D2481;
+}
+
+.brand-eighth{
+    background-color: #FFD831;
+}
+
+.box-designit-text{
+    padding: 45px;
+}
+
+.image-designit{
+    height: 80px;
+    width: 250px;
+}
+
+.image-designit img{
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+    
+}
+
+.barra-designit{
+    width: 100px;
+    background-color: #D0D0D3;
+    height: 1px;
+    margin-top: 45px;
 }
 
 .porta-dropbox-azienda{
