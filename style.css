@@ -22,11 +22,18 @@ footer{
 }
 
 .topbar{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px;
     height: 80px;
+    width: 100%;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
 }
 
 .topbar-sx{
@@ -137,7 +144,6 @@ footer{
 .jumbotron-img{
     width: 70%;
     height: 100%;
-    overflow: hidden;
     position: relative;
     top: 50px;
     
@@ -177,7 +183,6 @@ footer{
     width: calc(100% / 3 - 40px);
     border: 1px solid #D0D0D3;
     height: 950px;
- 
 }
 
 .top-colonna-piano{
@@ -296,13 +301,16 @@ footer{
 
 .box-tova-partner{
     height: 100%;
-    display: flex;
-    
+    display: flex;    
 }
 
 .trova-partner-img{
-    background-color: lightslategrey;
     width: 60%;
+}
+
+.trova-partner-img img{
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .trova-partner-text{
@@ -332,7 +340,6 @@ footer{
 .box-dropbox-business{
     height: 1000px;
     width: 100%;
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
 }
@@ -344,10 +351,28 @@ footer{
 
 .card-dropbox-img{
     height: 50%;
+
+}
+
+.card-dropbox-img img{
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+    
 }
 
 .card-dropbox-text{
     height: 50%;
+    padding: 0 25px 25px 0;
+}
+
+.card-dropbox-text p{
+    padding-top: 25px;
+    line-height: 23px;
+}
+
+.card-dropbox-text h3{
+    font-size: 1.4rem;
 }
 
 .dropbox-business-bottom{
