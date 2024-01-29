@@ -33,7 +33,6 @@ footer{
     top: 0;
     left: 0;
     z-index: 999;
-
 }
 
 .topbar-sx{
@@ -46,10 +45,6 @@ footer{
 
 .logo{
     padding-right: 45px;
-}
-
-.menu{
-
 }
 
 .topbar .menu ul{
@@ -82,7 +77,6 @@ footer{
     background-color: #0061FF;
     color: white;
     padding: 6px;
-
 }
 
 .tasto-inizia > a{
@@ -108,7 +102,6 @@ footer{
 
 .jumbotron .container-lg h1{
     font-size: 4rem;
-    /* text-align: center; */
     padding-top: 50px;
 }
 
@@ -118,7 +111,6 @@ footer{
     display: flex;
     width: 100%;
     margin-top: 45px;
-
 }
 
 .jumbotron-text{
@@ -146,8 +138,7 @@ footer{
     width: 70%;
     height: 100%;
     position: relative;
-    top: 50px;
-    
+    top: 50px;   
 }
 
 .jumbotron-img > img{
@@ -155,18 +146,10 @@ footer{
     max-width: 96%;
 }
 
-.business{
-
-}
-
 .business .container-sm h2{
     padding: 50px 0;
     font-size: 2.5rem;
     margin-top: 140px;
-}
-
-.fatturazione{
-    /* padding-top: 30px; */
 }
 
 .button-business{
@@ -209,7 +192,6 @@ footer{
     padding-top: 40px;
 }
 
-
 /* icone list-item personalizzate  */
 .list-icon.user::before{
     content: '\f007';
@@ -229,7 +211,6 @@ footer{
 
 .list-icon.check::before{
     content: '\f00c';
-
 }
 
 .list-icon::before{
@@ -237,11 +218,7 @@ footer{
     font-weight: 900;
     margin-right: 5px;
 }
-
-
-.user{
-
-}
+/* fine list-item personalizzate */
 
 .menu-colonne ul li{
     padding-bottom: 15px;
@@ -328,7 +305,6 @@ footer{
 
 .bottom-box-enterprise-sx-down > p{
     font-size: 14.4px;
-
 }
 
 .trova-partner{
@@ -395,14 +371,12 @@ footer{
 
 .card-dropbox-img{
     height: 50%;
-
 }
 
 .card-dropbox-img img{
     max-width: 100%;
     object-fit: cover;
-    max-height: 100%;
-    
+    max-height: 100%;   
 }
 
 .card-dropbox-text{
@@ -458,8 +432,7 @@ footer{
     width: calc(100% - 30px);
     position: relative;
     left: 15px;
-    top: 15px;
-    
+    top: 15px;   
 }
 
 .box-logo img{
@@ -525,8 +498,7 @@ footer{
 .image-designit img{
     max-width: 100%;
     object-fit: cover;
-    max-height: 100%;
-    
+    max-height: 100%;  
 }
 
 .barra-designit{
