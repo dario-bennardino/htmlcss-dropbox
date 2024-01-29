@@ -103,6 +103,7 @@ footer{
 .jumbotron{
     background-color: #B4D0E7;
     height: 100%;
+    padding-top: 80px;
 }
 
 .jumbotron .container-lg h1{
@@ -425,6 +426,7 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .brand-first{
