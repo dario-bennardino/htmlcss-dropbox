@@ -209,9 +209,28 @@ footer{
     padding-top: 40px;
 }
 
+
+
+.list-icon.user::before{
+    content: 'f007';
+}
+
+.list-icon::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+
+
+.user{
+
+}
+
 .menu-colonne ul li{
     padding-bottom: 15px;
     font-size: 0.9rem;
+    list-style: none;
 }
 
 .acquista-ora{
