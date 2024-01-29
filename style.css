@@ -212,8 +212,24 @@ footer{
 
 /* icone list-item personalizzate  */
 .list-icon.user::before{
-    content: '07f0';
-    /* content: '\u07f0'; */
+    content: '\f007';
+}
+
+.list-icon.users::before{
+    content: '\f0c0';
+}
+
+.list-icon.folder::before{
+    content: '\f07b';
+}
+
+.list-icon.share::before{
+    content: '\f1e0';
+}
+
+.list-icon.check::before{
+    content: '\f00c';
+
 }
 
 .list-icon::before{
@@ -355,9 +371,14 @@ footer{
 }
 
 .botton-trova-partner{
-    /* padding: 10px; */
     padding: 10px 40px;
     background-color: white;
+}
+
+.botton-trova-partner-solid{
+    padding: 10px 40px;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .box-dropbox-business{
